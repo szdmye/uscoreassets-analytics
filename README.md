@@ -1,31 +1,28 @@
 # USCoreAssets Analytics
 
-![Vue.js](https://img.shields.io/badge/Vue.js-3.x-4FC08D?logo=vuedotjs)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.x-6DB33F?logo=springboot)
-![MongoDB](https://img.shields.io/badge/MongoDB-7.x-47A248?logo=mongodb)
-![ECharts](https://img.shields.io/badge/ECharts-5.x-AA344D?logo=apacheecharts)
-
 A full-stack US core assets price analysis and visualization platform with real-time stock monitoring, technical indicators, and price prediction.
 
 ## 🏗️ System Architecture
-Frontend (Vue.js 3)
-├── Vue 3 + Composition API
-├── ECharts 5 for Visualization
-└── Vite Build Tool
 
-Backend (Spring Boot)
-├── Spring Boot 3.x REST API
-├── MongoDB Data Persistence
-├── Business Logic Layer
-└── Data Access Layer
+### Frontend (Vue.js 3)
+- **Vue 3 + Composition API** - Modern Vue.js with Composition API
+- **ECharts 5 for Visualization** - Advanced charting and data visualization
+- **Vite Build Tool** - Fast development and build tooling
 
-Data Layer
-├── Real-time Stock Data APIs
-├── LSTM Prediction Models
-├── NewsAPI Integration
-└── DeepseekAI API
+### Backend (Spring Boot)
+- **Spring Boot 3.x REST API** - Robust backend RESTful services
+- **MongoDB Data Persistence** - NoSQL database for flexible data storage
+- **Business Logic Layer** - Core application business rules
+- **Data Access Layer** - Database interaction and data management
+
+### Data Layer
+- **Real-time Stock Data APIs** - Live market data feeds
+- **LSTM Prediction Models** - Long Short-Term Memory neural networks for price forecasting
+- **NewsAPI Integration** - Financial news and sentiment analysis
+- **DeepseekAI API** - AI-powered analytics and insights
 
 ## 📁 Project Structure
+```
 uscoreassets-analytics/
 ├── backend/                          # Spring Boot Backend
 │   ├── src/main/java/test1           # Main Package
@@ -63,3 +60,4 @@ uscoreassets-analytics/
 │   ├── public/                       # Static Assets
 │   └── package.json                  # Dependencies
 └── README.md                         # Documentation
+```
