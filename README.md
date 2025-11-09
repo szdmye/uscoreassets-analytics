@@ -5,21 +5,21 @@ A full-stack US core assets price analysis and visualization platform with real-
 ## 🏗️ System Architecture
 
 ### Frontend (Vue.js 3)
-- **Vue 3 + Composition API** - Modern Vue.js with Composition API
-- **ECharts 5 for Visualization** - Advanced charting and data visualization
-- **Vite Build Tool** - Fast development and build tooling
+- **Vue 3 + Composition API**
+- **ECharts 5 for Visualization**
+- **Vite Build Tool**
 
 ### Backend (Spring Boot)
-- **Spring Boot 3.x REST API** - Robust backend RESTful services
-- **MongoDB Data Persistence** - NoSQL database for flexible data storage
-- **Business Logic Layer** - Core application business rules
-- **Data Access Layer** - Database interaction and data management
+- **Spring Boot 3.x REST API**
+- **MongoDB Data Persistence**
+- **Business Logic Layer**
+- **Data Access Layer**
 
 ### Data Layer
-- **Real-time Stock Data APIs** - Live market data feeds
-- **LSTM Prediction Models** - Long Short-Term Memory neural networks for price forecasting
-- **NewsAPI Integration** - Financial news and sentiment analysis
-- **DeepseekAI API** - AI-powered analytics and insights
+- **Real-time Stock Data APIs**
+- **LSTM Prediction Models**
+- **NewsAPI Integration**
+- **DeepseekAI API**
 
 ## 📁 Project Structure
 ```
